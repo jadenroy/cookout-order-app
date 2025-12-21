@@ -1,0 +1,135 @@
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+  min-height: 100vh;
+}
+
+.profileCard {
+  background: #ffffff;
+  width: 520px;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  border-top: 6px solid #ff914d;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.greeting {
+  text-align: center;
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.toggle button {
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid #ccc;
+  background: #fff4e3;
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+
+.toggle button:hover {
+  background: #ffe2c4;
+}
+
+.active {
+  background: #ff914d;
+  color: #aaa;
+  font-weight: bold;
+  border-color: #ff914d;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.cookoutCard {
+  display: block;
+  padding: 1rem 1.2rem;
+  background: #fff4e3;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  border-left: 3px solid #ff914d;
+  transition: all 0.15s ease;
+}
+
+.cookoutCard:hover {
+  background: #ffe2c4;
+  transform: translateY(-3px);
+}
+
+.cardName {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cardLocation {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.7rem;
+  background: #fff4e3;
+  border-radius: 10px;
+}
+
+.cookoutName {
+  font-weight: 700;
+}
+
+.cookoutLocation {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 1rem;
+}
+
+.future {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.secondaryBtn {
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
+

@@ -1,0 +1,52 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.row input {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.row button {
+  background: #ff6b6b;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.addBtn {
+  margin-top: 1rem;
+  background: #ffa94d;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+.submitBtn {
+  display: block;
+  margin-top: 1.5rem;
+  background: #ff7a24;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}

@@ -1,0 +1,115 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* =======================
+   COOKOUT CARD
+======================= */
+
+.cookoutCard {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  border-left: 6px solid #ffb65e;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cookoutCard:hover {
+  background: #ffe2c4;
+  transform: translateY(-3px);
+}
+
+.cookoutCard h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.cookoutCard p {
+  margin: 0 0 1rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* =======================
+   DATE
+======================= */
+
+.date {
+  font-size: 0.95rem;
+  color: #3aa6b9;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* =======================
+   ROLE BORDER STYLES
+======================= */
+
+.host {
+  border-left: 6px solid #4caf50;
+}
+
+.attending {
+  border-left: 6px solid #2196f3;
+}
+
+.none {
+  border-left: 6px solid #ccc;
+}
+
+/* =======================
+   ROLE BADGES (FINAL)
+======================= */
+
+.badge {
+  display: inline-block;
+  margin-left: 0.6rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #1f2937; /* dark, readable text */
+}
+
+/* HOST — green bubble */
+.host .badge {
+  background-color: #d1fae5; /* soft green */
+  border: 1px solid #34d399;
+}
+
+/* ATTENDING — blue bubble */
+.attending .badge {
+  background-color: #dbeafe; /* soft blue */
+  border: 1px solid #60a5fa;
+}
+
+/* =======================
+   DETAILS LINK
+======================= */
+
+.detailsLink {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #ff7f50;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.detailsLink:hover {
+  background: #ff5c2b;
+}

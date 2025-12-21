@@ -1,0 +1,59 @@
+.pageWrapper {
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: green;
+}
+
+.userList {
+    list-style: none;
+    padding: 0;
+}
+
+.userItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    border: 2px solid #ffe2c4;
+    border-left: 6px solid #ffb65e;
+
+}
+
+.userItem:hover {
+    background: #ffe2c4;
+    transform: translateY(-3px);
+}
+
+.inviteBtn {
+    background: #ff7f50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.inviteBtn:hover {
+    background: #ff5c2b;
+}
+
+.inviteBtn:disabled {
+    background-color: #333;
+    color: orange;
+}

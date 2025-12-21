@@ -1,0 +1,76 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detailsCard {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.actionBtn {
+  background: #ff8c42;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.actionBtn:hover {
+  background: #e6762f;
+  transform: translateY(-1px);
+}
+
+.sectionHeader {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.attendeeList {
+  margin-bottom: 15px;
+}
+
+.attendeeCard {
+  background: #f7f7f7;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.addBtn {
+  background: #ff8c42;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background: #e6762f;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
